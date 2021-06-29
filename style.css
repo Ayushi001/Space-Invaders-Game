@@ -1,0 +1,61 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+
+.head{
+    background-color:thistle;
+    border-left: solid indigo 25px;
+    border-right: solid indigo 25px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: larger;
+    /* text-decoration: slateblue; */
+}
+.grid{ /*game grid*/
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    background-color:floralwhite;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    /* padding: 10px; */
+}
+
+.grid div{ /*parent=grid, child=div, refers to every div inside grid class*/
+    /*each square inside grid*/
+    width: 20px;
+    height: 20px;
+    /* border: solid black 1px; */
+}
+
+.invader{
+    background-color: blueviolet;
+    border-radius: 10px;
+    /* border: solid purple 1px; */
+}
+
+.shooter{
+    background-color:teal;
+    /* border-radius: 10px; */
+    border: solid rgb(0, 24, 0) 1px
+}
+
+.laser{
+       background-color:salmon;
+}
+.boom{
+    background-color: red;
+}
+.results{
+     border:solid black 1px; 
+     border-radius: 100px;
+     background-color:honeydew;
+     text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
